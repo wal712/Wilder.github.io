@@ -1,0 +1,126 @@
+
+
+// Major Breakpoints
+@media screen and (min-width: 750px) {
+
+    body {
+        font-size: 18px;
+    }
+    .header {
+
+        .nav-btn {
+            top: 50px;
+            left: 50px;
+
+        }
+
+        .navbar {
+            width: 50vw;
+            font-size: 2em;
+
+            .nav-menu {
+                margin-top: 40%;
+                font-size: 4rem;
+
+                .menu-item {
+                    margin-bottom: 4rem;
+                }
+            }
+        }
+    }
+
+    .masthead {
+        .mast-main {
+            font-size: 5rem;
+        }
+
+        .mast-sub {
+            font-size: 1.8rem;
+        }
+    }
+
+    .about {
+
+        display: flex;
+        flex-wrap: wrap;
+        // align-items: center;
+        // justify-content: center;
+        padding: 2rem;
+        padding-bottom: 4rem;
+
+        .about-header {
+            font-size: 4rem;
+            width: 100%;
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        .about-img {
+            width: 40%;
+            margin-bottom: 2rem;
+        }
+
+        .about-img {
+            max-height: 40vh;
+        }
+
+        .about-info {
+
+        }
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .projects-header {
+            width: 100%;
+            font-size: 3.5rem;
+        }
+
+        .project {
+            margin-left: 1em;
+            margin-right: 1em;
+            width: 38em;
+            max-width: 100%;
+        }
+
+
+    }
+}
+
+// Minor Breakpoint
+
+@media screen and (min-width: 1000px) {
+    .header {
+        .navbar {
+            width: 33vw;
+
+            .nav-menu {
+                margin-top: 30%;
+                font-size: 1.5em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1420px) {
+    .about {
+        justify-content: center;
+        hr {
+            // display: none;
+            width: 60%;
+        }
+
+        .about-info {
+            margin: 0;
+            margin-left: 1em;
+            width: 60%;
+        }
+
+        .about-img {
+            margin: 2rem;
+        }
+    }
+}
