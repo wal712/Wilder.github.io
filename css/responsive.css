@@ -62,8 +62,8 @@
   .projects .project {
     margin-left: 1em;
     margin-right: 1em;
-    width: 38em;
-    max-width: 100%;
+    width: 30%;
+    height: 80vh;
   }
 }
 
@@ -93,6 +93,9 @@
   }
   .about .about-img {
     margin: 2rem;
+  }
+  .projects .project {
+    height: 95vh;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
