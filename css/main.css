@@ -248,4 +248,13 @@ body {
 .projects .project .project-link:hover {
   text-decoration: underline;
 }
+
+.contact {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.contact .contact-header {
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */
